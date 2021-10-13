@@ -1,0 +1,4 @@
+FROM quay.io/lucamarinello/httpd-luca-marinello:latest
+COPY index.html /var/www/html
+LABEL mantainer="Luca Marinello"
+LABEL description="Image html custom"
